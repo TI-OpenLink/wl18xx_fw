@@ -34,7 +34,7 @@ fi
 
 
 cp $1 nvs_test
-echo -en \\x$BYTE_6\\x$BYTE_5\\x$BYTE_4\\x$BYTE_3\\x$BYTE_1\\x$BYTE_2\\x$BYTE_7\\x$BYTE_8 > number
+echo -en \\x$BYTE_6\\x$BYTE_5\\x$BYTE_4\\x$BYTE_3\\x$BYTE_2\\x$BYTE_1\\x$BYTE_7\\x$BYTE_8 > number
 dd if=number of=nvs_test obs=1 conv=notrunc seek=0
 
 cp nvs_test $1
