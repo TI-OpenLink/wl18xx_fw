@@ -2,7 +2,7 @@
 Version=1
 
 [FileID]
--1=I:\victoria\firmware\real_time_trace_string.h
+-1=M:\DrorE_MCP_WL8_FW_1_int\victoria\firmware\real_time_trace_string.h
 
 [MsgID]
 1=%d UART Traces Dropped
